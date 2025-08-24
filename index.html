@@ -1,10 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Welcome to mmjmanav’s Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manav M J</title>
+  <style>
+    /* General reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #e0f7fa;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #001f1f;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: cyan;
+      margin-bottom: 0.5rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: #e0f7fa;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: cyan;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: cyan;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      border-bottom: 2px solid cyan;
+      display: inline-block;
+      padding-bottom: 0.25rem;
+    }
+
+    .projects a {
+      display: block;
+      color: #e0f7fa;
+      margin: 0.5rem 0;
+      text-decoration: none;
+      padding: 0.5rem;
+      border-left: 3px solid transparent;
+      transition: all 0.3s;
+    }
+
+    .projects a:hover {
+      border-left: 3px solid cyan;
+      color: cyan;
+      background: #002020;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #001a1a;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: cyan;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, this is mmjmanav!</h1>
-  <p>Personal website coming soon 🚀</p>
+
+  <header>
+    <h1>Manav M J</h1>
+    <p>Developer • Writer • Film Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I’m Manav, a student and aspiring creator. I love building things on the web, 
+      writing about ideas, and exploring cinema. This site is my personal corner of the internet.
+    </p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <a href="https://letterboxd.com" target="_blank">🎬 Film Journal on Letterboxd</a>
+    <a href="https://substack.com" target="_blank">✍️ My Writing on Substack</a>
+    <a href="https://github.com" target="_blank">💻 GitHub Repos</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      You can reach me at: <a href="mailto:manav@example.com">manav@example.com</a>
+    </p>
+    <p>
+      Or connect with me here:  
+      <a href="https://twitter.com" target="_blank">Twitter</a> • 
+      <a href="https://instagram.com" target="_blank">Instagram</a> • 
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Manav M J</p>
+    <p>
+      <a href="#about">About</a> • 
+      <a href="#projects">Projects</a> • 
+      <a href="#contact">Contact</a>
+    </p>
+  </footer>
+
 </body>
 </html>
+
